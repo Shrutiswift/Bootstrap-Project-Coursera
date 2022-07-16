@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Benefits of bootstrap
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!--  Nav-bar  -->
+    <!-- Just an image -->
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        </a>
+    </nav>
+
+
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Navbar</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </nav>
+    <h1>Grid</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">Apple</div>
+            <div class="col-sm-4">Banana</div>
+        </div>
+        <div class="row">
+            <div class="col-sm">Watermelon</div>
+            <div class="col-sm">Mango</div>
+            <div class="col-sm">Grapes</div>
+        </div>
+    </div>
+    <div class="container px-lg-5">
+        <div class="row mx-lg-n5">
+            <div class="col py-3 px-lg-5 border bg-light">ribs</div>
+            <div class="col py-3 px-lg-5 border bg-light">salad</div>
+        </div>
+    </div>
+    <div class="images">
+        <img src="" class="rounded float-left" alt="...">
+        <img src="" class="rounded float-right" alt="...">
+        <div class="tables">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Days of the week</th>
+                        <th scope="col">Breakfast</th>
+                        <th scope="col">Lunch</th>
+                        <th scope="col">Dinner</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>Grapes</td>
+                        <td>Sandwish</td>
+                        <td>Salad</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tuesday</th>
+                        <td>Apple</td>
+                        <td>Rice</td>
+                        <td>Paratha</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td>Banana</td>
+                        <td>Milk</td>
+                        <td>Daal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
