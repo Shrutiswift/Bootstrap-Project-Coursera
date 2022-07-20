@@ -1,119 +1,106 @@
-<!DOCTYPE html>
 <html>
-
-<head>
-    <title>
-        Benefits of bootstrap
-    </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 
 <body>
+    <nav id="navbar" class="nav">
+        <ul class="navlist">
+            <a href="#welcome-section">About</a>
+            <a href="#projects">Work</a>
+            <a href="#Contact">Contact</a>
+        </ul>
+    </nav>
 
-    <!--  Nav-bar  -->
-    <!-- Just an image -->
-    <!-- Just an image -->
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+    <!--Welcome Section -->
+    <section id="welcome-section" class="welcome-section">
+        <h1>Hey I am a Robot.</h1>
+    </section>
+
+    <!--Project section -->
+    <section id="projects" class="project-section">
+        <h2 class = "project-section-header"> Here is some of my work-</h2>
+        <div class="projects-grid">
+            <a href="https://codepen.io/shrutiswift/pen/vYZpRNq" target="_blank" class="project-path">
+                <img class="image" 
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/83/Sir_Isaac_Newton_%281643-1727%29.jpg?20180726234015"
+                    alt="project" />
+                <p class="project-tile">
+                    Tribute Page
+                </p>
+            </a>
+        
+    
+        <a href="https://codepen.io/shrutiswift/pen/PoQBmpZ?editors=0100" target="_blank" class="project-path">
+            <img class="image"
+                src="https://lp2.hm.com/hmgoepprod?set=width[1440],quality[80],options[limit]&source=url[https://www2.hm.com/content/dam/ladies_s05/april_2022/1065d/1065D-3x2-the-summer-collection.jpg]&scale=width[global.width],height[15000],options[global.options]&sink=format[jpg],quality[global.quality]"
+                alt="project" />
+            <p class="project-tile">
+                Landing Page
+            </p>
         </a>
-    </nav>
 
 
-    <nav class="navbar navbar-light bg-light justify-content-between">
-        <a class="navbar-brand">Navbar</a>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-            </ul>
+        <a href="https://codepen.io/shrutiswift/pen/gORoNaY" target="_blank" class="project-path">
+            <img class="image"
+                src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfn0PCvG3VfrnY4T-GEVTZAhKVZXtxih9T6A&usqp=CAU"
+                alt="project" />
+            <p class="project-tile">
+                Survey Form
+            </p>
+        </a>
+
+        <a href="https://codepen.io/shrutiswift/pen/RwgQWLb" target="_blank" class = "project-path">
+            <img class = "image"
+                src = "https://assets.codepen.io/6420896/internal/screenshots/pens/abJPxMV.default.png?fit=cover&format=auto&ha=false&height=360&quality=75&v=2&version=1623910131&width=640"
+                alt = "project" />
+            <p class = "project-tile">
+                Documentation
+            </p>
+        </a>
         </div>
-    </nav>
-    </nav>
-    <h1>Grid</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">Apple</div>
-            <div class="col-sm-4">Banana</div>
+        <a href="https://codepen.io/shrutiswift" class="btn btn-show-all" target="_blank">Show all</a>
+    </section>
+
+
+    <!--Contact -->
+    <section id="contact" class="contact">
+        <div class="contact-session-header">
+            <h2> Let's work together...</h2>
+            <p>How do you take your coffee?</p>
         </div>
-        <div class="row">
-            <div class="col-sm">Watermelon</div>
-            <div class="col-sm">Mango</div>
-            <div class="col-sm">Grapes</div>
+
+        <ion-icon name="logo-github"></ion-icon>
+        <a id="profile-link" href="https://github.com/Shrutiswift" target="_blank" class="btn-details">Github</a>
+
+        <ion-icon name="logo-linkedin"></ion-icon>
+        <a id="profile-link" href="https://www.linkedin.com/in/shruti-sharma-ab3788201/" target="_blank"
+            class="btn-details">Linkedin</a>
+
+        <ion-icon name="logo-twitter"></ion-icon>
+        <a id="profile-link" href="https://mobile.twitter.com/Shrutiswift" target="_blank"
+            class="btn-details">Twitter</a>
+
+        <ion-icon name="mail-sharp"></ion-icon>
+        <a id="profile-link" href="shrutiswift@gmail.com" target="_blank" class="btn-details">Send a mail</a>
+
+        <ion-icon name="call-sharp"></ion-icon>
+        <a id="profile-link" href="8822965393" target="_blank" class="btn-details">Contact me</a>
         </div>
-    </div>
-    <div class="container px-lg-5">
-        <div class="row mx-lg-n5">
-            <div class="col py-3 px-lg-5 border bg-light">ribs</div>
-            <div class="col py-3 px-lg-5 border bg-light">salad</div>
-        </div>
-    </div>
-    <div class="images">
-        <img src="" class="rounded float-left" alt="...">
-        <img src="" class="rounded float-right" alt="...">
-        <div class="tables">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Days of the week</th>
-                        <th scope="col">Breakfast</th>
-                        <th scope="col">Lunch</th>
-                        <th scope="col">Dinner</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Monday</th>
-                        <td>Grapes</td>
-                        <td>Sandwish</td>
-                        <td>Salad</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Tuesday</th>
-                        <td>Apple</td>
-                        <td>Rice</td>
-                        <td>Paratha</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Wednesday</th>
-                        <td>Banana</td>
-                        <td>Milk</td>
-                        <td>Daal</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
+    </section>
+
+    <footer>
+        <p>
+            **This is just a fake portfolio. All the projects and contact details given
+            are not real.
+        </p>
+        <p>Created for<a href="https://codepen.io/shrutiswift" target="_blank"> Project</a>
+        </p>
+    </footer>
+
 </body>
-
 </html>
