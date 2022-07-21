@@ -1,41 +1,37 @@
-
 :root{
-    --bs-blue: #45567d;
-    --bs-gray: 	#9CB4CC;
-    --bs-pink:#F2D7D9;
-    --bs-dark:#D3CEDF;
+    --bs-gray: 	#886F6F;
+    --bs-pink:#F3C5C5;
+    --bs-dark: #C1A3A3;
+}
+body{
+    overflow-x: hidden;
 }
 .nav-item{
     width: 100%;
-    font-size: 35px;
-}
-
-.col:hover{
-    color: black;
+    font-size: 200%;
 }
 h2{
     font-size: 40px;
     text-align: center;
     margin: 0%;
+    font-family: sans-serif;
 }
 a{
-    color:white;
-    margin: 0%;
     text-decoration: none;
-    font-family: serif;
+    font-family: sans-serif;
+    color: rgb(44, 44, 44);
 }
 a:hover{
-    color: black;
+    color:rgb(44, 44, 44);
 }
 .fs-1{
     text-align: center;
     background: var(--bs-pink);
-    margin: 0%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: black;
+    color:rgb(44, 44, 44);
     font-family: sans-serif;
 }
 
@@ -47,27 +43,22 @@ a:hover{
 }
 .mainBody{
     background-color:var(--bs-dark);
-    padding-bottom: 20px;
-    color: white;
-    
+    color: rgb(44, 44, 44);
 }
 .btn-details{
-    color: white;
+    color: rgb(44, 44, 44);
     background-color: var(--bs-gray);
-    font-size: 80%;
-}
-.col{
-    font-size: 44px;
 }
 .nav-link{
     color:white;
     font-size: 80%;
 }
-figcaption :hover{
-    color: #A8A4CE;
+.nav-link:hover{
+    color: #C1A3A3;
 }
 .back-color{
-    background-color: var(--bs-gray)
+    background-color: var(--bs-gray);
+    color: rgb(44, 44, 44);
 }
 .last-element{
     background-color: var(--bs-gray);
