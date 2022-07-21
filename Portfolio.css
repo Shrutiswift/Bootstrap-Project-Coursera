@@ -1,12 +1,22 @@
+
+:root{
+    --bs-blue: #45567d;
+    --bs-gray: 	#9CB4CC;
+    --bs-pink:#F2D7D9;
+    --bs-dark:#D3CEDF;
+}
 .nav-item{
     width: 100%;
     font-size: 35px;
 }
+
+.col:hover{
+    color: black;
+}
 h2{
     font-size: 40px;
-    font-family: cursive;
     text-align: center;
-    margin-top: 0;
+    margin: 0%;
 }
 a{
     color:white;
@@ -14,58 +24,54 @@ a{
     text-decoration: none;
     font-family: serif;
 }
-.fw-bold{
-    font-size: 60px; 
+a:hover{
+    color: black;
+}
+.fs-1{
     text-align: center;
-    width: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,0.3172761292016807) 100%, rgba(0,212,255,1) 100%);
+    background: var(--bs-pink);
     margin: 0%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-.img-fluid{
-    height: calc(100% - 3rem);
-    max-width: 100%;
-    height: 50%;
-    object-fit: cover;
-    margin-top: 0%;
-}
-.project-tile {
-    font-size: 2.8rem;
-    padding: 0%;    
-    text-align: center;
-    box-sizing: border-box;
-    width: 100%;
     color: black;
-    text-decoration-line: none;
+    font-family: sans-serif;
+}
 
+.img-fluid{
+    height: 200px;
+    object-fit: stretch;
+    padding:2%;
+    margin: 2%;
 }
-.btn-show-all {
-    font-size: 1.7rem;
-    background: #9e4646c8;
-}
-.project-back{
-    background-color: rgba(90, 17, 17, 0.663);
-}
-.text{
-    background-color:rgba(105, 40, 40, 0.648);
+.mainBody{
+    background-color:var(--bs-dark);
+    padding-bottom: 20px;
+    color: white;
+    
 }
 .btn-details{
-    color: black;
-    margin-top: 1px;
-}
-
-#about{
-    background-image: url(https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png);
-}
-.btn-show-all{
-    background-color: rgba(90, 17, 17, 0.663);
-    width: 100%;
-    margin-top: 0%;
+    color: white;
+    background-color: var(--bs-gray);
+    font-size: 80%;
 }
 .col{
     font-size: 44px;
+}
+.nav-link{
+    color:white;
+    font-size: 80%;
+}
+figcaption :hover{
+    color: #A8A4CE;
+}
+.back-color{
+    background-color: var(--bs-gray)
+}
+.last-element{
+    background-color: var(--bs-gray);
+}
+.footer{
+    background-color: var(--bs-gray);
 }
