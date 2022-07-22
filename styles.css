@@ -1,162 +1,84 @@
-:root {
-    --main-white: #f0f0f0;
-    --main-red: #b63446;
-    --main-bb: rgba(90, 17, 17, 0.663);
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+  margin: 0;
 }
-.nav-link {
-    display: block;
-    color: #913b17;
-    background:#b63446;
-    font-size:45px;
-    padding: 0%;
-    width: 100%;
+.nav-item{
+  max-width: 100%;
+  font-size: 35px;
 }
-.navigation-wrap{
-    margin:0%;
-    padding: 0%;
+.col:hover{
+  color: black;
 }
-.container-fluid{
-    background:var(--main-red);
-    padding: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+body{
+  background-image: url(https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png);
 }
-.welcome-section {
-    font-size: 60px;
-    margin-top: 700px;
-    margin: 0%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    background-color:black;
-    text-align: center;
-    width: 100%;
-    right: 0;
-    left: 0;
-    flex-direction: column;
-
+h2{
+  font-size: 2rem;
+  text-align: center;
+  margin: 0%;
 }
-
-a {
-    color:#f0f0f0;
-    margin: 1%;
-    text-decoration: none;
-    font-family: serif;
+a{
+  color:white;
+  margin: 0%;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
 }
-
-h1 {
-    color:  #73264d;
-    font-family: "Lucida Console", "Courier New", monospace;
+a:hover{
+  color: black;
 }
-
-h2 {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 0;
-    font-family: cursive;
+#about{
+  text-align: center;
+  color: white;
+  height: 100%;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 0.25ch;
 }
-
-.image {
-    height: calc(100% - 3rem);
-    width: 70%;
-    height: 80%;
-    object-fit: cover;
-    margin-top: 0%;
-    background-size:100px;
-    float: left;
-
+.intro{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
-
-.project-tile {
-    font-size: 2.8rem;
-    background-color:#6c07075f;
-    padding: 1rem 0.5rem;    
-    text-align: center;
-    box-sizing: border-box;
-    width: 70%;
+.text1{
+  font-size: 3rem;
+  font-weight: 400;
 }
-
-#profile-link {
-    color: white;
+.text2{
+  font-size: 2rem;
+  animation: text 5s infinite;
 }
-
-.Last {
-    color: black;
+#about span{
+  display: block;
 }
-
-.welcome-section>p {
-    font-size: 3rem;
-    font-weight: 200;
-    font-style: italic;
-    color: var(--main-red);
+@keyframes text {
+  0%{
+    color: rgba(1, 1, 1, 100%);
+  }
+  90%{
+    margin-bottom :-55px;
+    letter-spacing: 0.40ch;
+  }
+  100%{
+    margin-bottom: -55px;
+  }
 }
-
-body {
-    margin: 0px;
-    font-family: serif;
-    line-height: 1.4;
+.img-fluid{
+  width: 500px;
+  height: 500px;
 }
-.project-section{
-    background: var(--main-bb);
-    padding: 10px;
-    text-align: center;
+#work{
+  padding-bottom: 6%;
+  background: rgb(0,0,0);
+  background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(128,128,128,1) 100%);
 }
-.project-section-header{
-    border-bottom: 0.2rem solid var(--main-white);
-    padding: 2%;
-    width: 1300px;
+.main{
+  padding-top: 6%;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 0.30ch   
 }
-.contact{
-    background-color: #9a2f2fae;
-    color: white;
-    margin-top: 0%;
-}
-footer{
-    display: flex;
-    background: #2c3239;
-    padding: 38px;
-    justify-content: space-evenly;
-    border-top: 4px solid var(--main-red);
-}
-
-p{
-    color: white;
-    padding: 0;
-}
-
-.contact-session-header{
-    text-align: center;
-}
-.btn-details{
-    text-align: center;
-    display: inline-block;
-    padding: 0.2rem 0.5rem;
-    border-radius: 2px;
-    font-size: 1.5rem;
-
-}
-@media (max-width: 30.625em) {
-    .project-section {
-        padding: 0%;
-    }
-}
-.nav{
-    position: fixed;
-}
-.projects-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 15rem;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 1%;
-    margin-left: 3rem;
-    margin-top: 2%;
-}
-.btn-show-all {
-    font-size: 2.5rem;
-    background: #9e4646c8;
-}
-#contact{
-    text-align: center;
+.nav-link{
+  color:white;
+  font-size: 60%;
 }
