@@ -53,7 +53,7 @@ a:hover{
     color:white;
     font-size: 80%;
 }
-.nav-link:hover{
+.navbar .nav-link:hover{
     color: #C1A3A3;
 }
 
