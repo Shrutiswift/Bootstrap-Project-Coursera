@@ -12,6 +12,7 @@ body{
 .nav-item{
     width: 100%;
     font-size: 200%;
+    max-width:fit-content;
 }
 h2{
     font-size: 40px;
